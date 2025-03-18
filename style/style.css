@@ -1,18 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 h1 {
-    color:red;
-    font-style: italic;
+    color:white;
+    font-style:normal;
     font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Work Sans", sans-serif;
     text-decoration: overline;
     font-size: 80px;
     text-align: center;
+    font-weight: 600;
 }
 #heading-parent{
-    background-color: rgb(28, 10, 4);
+    /* background-image:linear-gradient(75deg, black, rgba(222, 9, 165, 0.934)); */
+    background-image: linear-gradient(45deg, rgb(19, 0, 128), transparent), 
+    url(../assets/pexels-eberhardgross-1064162.jpg);
+    background-size: cover;
     height: 600px;
     padding: 100px 0px;
     width: 1100px;
@@ -21,4 +26,18 @@ h1 {
     margin-left: auto;
     margin-right: auto; */
     margin: 30px auto;
+    max-width: 100%;
+}
+.btn{
+    font-size: 20px;
+    background-color: rgb(229, 18, 204);
+    padding: 10px 16px;
+    color:rgb(255, 255, 255);
+    border-style: solid;
+    border-color:yellow;
+    border-radius: 8px;
+}
+.btn-parent{
+    text-align: center;
+    margin: 20px 0;
 }
